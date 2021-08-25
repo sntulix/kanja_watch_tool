@@ -1,0 +1,32 @@
+h1 {
+	font-size: 1.5em;
+}
+
+#policy_decline {
+  display: none;
+}
+
+#camera_display {
+  display: none;
+}
+
+#video {
+	width: 100%;
+}
+
+#canvas {
+	width: 100%;
+	display: none;
+}
+
+#message {
+  visibility: hidden;
+}
+
+#another_server {
+  width: 70%;
+}
+
+#remove_another_server {
+  display: none;
+}
