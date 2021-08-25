@@ -41,6 +41,7 @@ PHPが動く公開Webサーバー
 1. この後は、見守るページにあるリンクから患者さんへ知らせるアドレスを作成し、患者さんがそのURLをブラウザで開くと見守るページに写真が送られてきます。After this, create an address to inform the patient from the link on the watching page, and when the patient opens the URL in the browser, the photo will be sent to the watching page.
 
 # 使用上の注意
+- 患者さんは渡されたアドレスをブラウザ開いておくと1分おきにカメラの映像がサーバーに送られますので、ご留意ください。Please note that if the patient opens the browser with the passed address, the camera image will be sent to the server every minute.
 - 見守れる患者の人数（カメラ数）はサーバーの性能によります。さくらサーバーのレンタルサーバーのスタンダードプランでおおよそ20人だと思います。The number of patients (number of cameras) that can be watched depends on the performance of the server.
 - スマートフォンやノートパソコンは電源をつなぎながら利用してください。Please use this whiling connecting the power supply of your smartphone or laptop.
 - 日本内では利用形態によって個人情報保護法の適用対象になりますので取り扱い義務に気をつけて下さい。In using, be careful of personal information protection law.
