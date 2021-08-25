@@ -17,7 +17,7 @@ iPhoneか、Androidのスマートフォン、またはカメラとネット回�
     - 2015年発売から。最新のGoogle Chrome。AndroidOSがアップデートされていること（Android7〜）。
   - フェイスカメラ（プライバシーの設定からブラウザでカメラを使えるようにしておいてください）
   - 見守るサーバーへつながるネット回線（主にキャリア回線かWifi）。
-  - ※ブラウザが表示されていないと写真を送る機能が止まるため、スマートフォンの自動ロックはなしにしておいてください。
+  - ※ブラウザが表示されていないと写真を送る機能が止まるため、スマートフォンの自動ロックはなしにしておいてください Please disable auto lock of the smartphone, because of prevent stopping of sending photo with the browser unfocused.
 - パソコンの場合
   - Windowsパソコンの場合、最新バージョンのEdge、Firefoxブラウザ、またはChrome系ブラウザ
   - Mac、最新バージョンのSafari、Firefoxブラウザ、またはChrome系ブラウザ
