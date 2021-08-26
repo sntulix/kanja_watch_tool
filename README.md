@@ -30,6 +30,7 @@ PHPが動く公開Webサーバー
   - 独自ドメインがなくても動きます。
   - SSL通信ができるアドレスであること。共用SSLでも動きます。
   - 月額固定のレンタルWebサーバーでも動きます。
+  - 使うディスクのサイズは1日あたり約72MB/人です。一人一か月で2GBほど、20人だとおおよそ40GB/月です。When number of patient is 1, disk size required is 72MB per day. It is about 2GB per month with 1 patient. When number of patients is 20 persons, the size is about 40GB per month.
 
 # インストール Install  
 1. サーバーを用意します。Prepare the server.
