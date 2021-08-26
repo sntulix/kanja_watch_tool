@@ -1,7 +1,5 @@
 # 患者watchツール "Home recuperation watching over tool"
-自宅療養者の容体をスマートフォンのカメラを使って間接的にリモートで見守るツールです。
-
-This is a tool keeping an eye on a home recuperation remotely.
+自宅療養者の容体をスマートフォンのカメラを使って間接的にリモートで見守るツールです。This is a tool keeping an eye on a home recuperation remotely.
 
 ## 概要 Overview
 ![自宅療養患者みまもりオープンソースシステムの図](https://user-images.githubusercontent.com/616940/130732815-825d9e39-7762-4e3c-8fb8-c90c44a125e8.png)
