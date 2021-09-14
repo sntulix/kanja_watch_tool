@@ -13,6 +13,8 @@ function user_camera_accept() {
   .catch(errorCallback);
   var policy_node = document.getElementById("policy_information");
   policy_node.style.display = "none";
+
+  setInterval("asyncSend()",55000);
 }
 
 function user_camera_decline() {
@@ -168,4 +170,3 @@ if (0<url_params.length) {
   kanja_id = url_params.substring(1+("kanja_id=".length));
 }
 
-setInterval("asyncSend()",55000);
