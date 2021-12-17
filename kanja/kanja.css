@@ -2,6 +2,10 @@ h1 {
 	font-size: 1.5em;
 }
 
+#policy_information {
+  display: none;
+}
+
 #policy_decline {
   display: none;
 }
@@ -14,7 +18,7 @@ h1 {
 	width: 100%;
 }
 
-#canvas {
+#canvasInput {
 	width: 100%;
 	display: none;
 }

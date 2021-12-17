@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="kanja.css<?php echo '?' . uniqid(); ?>">
 </head>
 <body>
+  <div id="opencv_loading">ページを読み込んでいます</div>
+  <div id="errorOutput"></div>
   <div id="policy_decline">
     利用を中止しました。
   </div>
@@ -29,8 +31,8 @@
     <div>
       個人情報の取得および、サービスの利用に同意しますか？
       <p>
-        <button onclick="user_camera_accept()">同意する</button>
-        <button onclick="user_camera_decline()">同意しない</button>
+        <button id="accept" onclick="user_camera_accept()" disabled>同意する</button>
+        <button id="decline" onclick="user_camera_decline()" disabled>同意しない</button>
       </p>
     </div>
   </div>
@@ -44,12 +46,13 @@
     <h1>カメラの映像を送信しています</h1>
     <div id="message"></div>
     <video id="video" autoplay playsinline></video>
-    <canvas id="canvas"></canvas>
+    <canvas id="canvasInput"></canvas>
     <div>
       他の見守りサーバーアドレス<br>
       <input id="another_server" type="url"><button id="add_another_server" onclick="add_another_server(document.getElementById('another_server').value)">登録する</button><button id="remove_another_server" onclick="return remove_another_server(document.getElementById('another_server').value)">解除する</button>
     </div>
   </div>
+  <script src="utils.js<?php echo '?' . uniqid(); ?>"></script>
   <script src="kanja.js<?php echo '?' . uniqid(); ?>"></script>
 </body>
 </html>
