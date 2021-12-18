@@ -46,11 +46,11 @@
     <h1>カメラの映像を送信しています</h1>
     <div id="message"></div>
     <video id="video" autoplay playsinline></video>
-    <canvas id="canvasInput"></canvas>
     <div>
       他の見守りサーバーアドレス<br>
       <input id="another_server" type="url"><button id="add_another_server" onclick="add_another_server(document.getElementById('another_server').value)">登録する</button><button id="remove_another_server" onclick="return remove_another_server(document.getElementById('another_server').value)">解除する</button>
     </div>
+    <canvas id="canvasInput"></canvas>
   </div>
   <script src="utils.js<?php echo '?' . uniqid(); ?>"></script>
   <script src="kanja.js<?php echo '?' . uniqid(); ?>"></script>

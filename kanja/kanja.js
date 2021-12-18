@@ -60,6 +60,7 @@ ctx.clearRect(0,0, canvasInput.width, canvasInput.height);
 ctx.drawImage(video, 0,0, canvasInput.width, canvasInput.height);
 
 requestAnimationFrame(drawCanvas);
+addMosaic_to_canvas_and_build_upload_image();
 }
 
 
@@ -78,8 +79,6 @@ function asyncSend() {
     } else {
     }
   }
-
-  addMosaic_to_canvas_and_build_upload_image();
 
   req.open('POST', 'photo_upload.php', true);
   req.setRequestHeader('content-type',
